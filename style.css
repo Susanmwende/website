@@ -1,13 +1,13 @@
 .navbar{
     display: flex;
-    gap: 20px;
-    border:  1px;
+    gap: 200px;
+
     background-color: #000;
-    padding: 50px ;
-    padding-left:50px;
+    padding:50px 250px;
+    /* padding-left:50px; */
     color: aliceblue;
     padding-left:80px ;
-    width: 1587px;
+    
     
 
 }
