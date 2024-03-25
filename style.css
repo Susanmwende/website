@@ -9,12 +9,15 @@
     border: 10px 30px;
     width: 1000px;
     height: 750px;
-    box-shadow: 5px 10px cadetblue;
+    box-shadow: 5px 10px rgb(155, 160, 160);
+    padding-left: 20%;
+    
+    
     
 
 }
     
-     #slide{
+     #sliding{
         width: 1850px;
         height: 900px;
         background-image: url(images/airmax.jpeg);
@@ -30,18 +33,22 @@
     @keyframes show {
         from{background-image: url(images/airfoce.jpeg)}
         to{background-image: url(images/combat.jpeg);}
-        from{background-image:url(images/nikeshoes.jpeg) ;}
+        from{background-image:url(images/gucci.jpeg) ;}
         
         
     }
-    body{
+    #bodies{
        background-color: rgb(206, 225, 225);
+       
     }
 
     #forms{
         padding: 20px 10px;
         border: 150px;
         border-radius: 20px;
+    
+        
+
     
 
     }
@@ -55,6 +62,289 @@
         background-color: cornflowerblue;
         border-radius: 15px;
     }
+
+    .image{
+        width: 1300px;
+        height: 1200px;
+        border-radius: 80px 20px;
+        margin-left: 8%;
+    
+    }
+    #footer{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        background-color: black;
+        color: aliceblue;
+    }
+    
+    
+    
+    
+    #group3{
+        width: 800px;
+        height: 400px;
+        display: flex;
+        gap: 20px;
+    }
+    #group4{
+        width: 600px;
+        height: 500px;
+        display: flex;
+        gap: 20px;
+    }
+    
+    
+    .img{
+        width: 800px;
+        height: 1200px;
+    }
+    #form3{
+        background-color: rgb(206,225,225);
+        align-items: center;
+        margin: 20px 70px;
+        
+    }
+    #bodyy{
+        background-color: rgb(162, 193, 193);
+        margin: 70px;
+    }
+
+    #website{
+        align-items: center;
+        padding: 60px;
+        margin: 30px 2px;
+        padding-top: 1px; 
+        margin-block:50px ;
+        color: #000;
+    }
+    .img12{
+        width: 300px;
+        height: 400px;
+        border-radius: 20px;
+    }
+    #containers{
+        display: flex;
+        border-radius: 5px;
+    
+    }
+    #group2{
+        display: flex;
+    }
+    .img1{
+        border-radius: 20px;
+    }
+    
+       
+    
+    
+    .lefft{
+        padding-left: 800px;
+    }
+    
+    
+    a:hover{
+     background-color:crimson ;
+    }
+    .butt1{
+        padding: 10px 20px;
+        background-color: rgb(44, 40, 39);
+        border-radius: 10px;
+        color: aliceblue;
+    }
+    .navbar ul{
+        list-style-type: none;
+        background-color: #000;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+        
+    
+    /* }
+    .navbar a{
+        color: aliceblue;
+        text-decoration: none;
+        padding: 35px;
+        display: grid;
+        text-align: center;
+        margin: 0 auto; */
+    }
+        .image{
+            width: 1300px;
+            height: 1200px;
+            border-radius: 80px 20px;
+            margin-left: 8%;
+        
+        }
+        #footer{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            background-color: black;
+            color: aliceblue;
+        }
+        
+        
+        
+        
+        #group3{
+            width: 800px;
+            height: 400px;
+            display: flex;
+            gap: 20px;
+        }
+        #group4{
+            width: 600px;
+            height: 500px;
+            display: flex;
+            gap: 20px;
+        }
+        
+        
+        .img{
+            width: 800px;
+            height: 1200px;
+        }
+        #form{
+            background-color: rgb(206,225,225);
+            align-items: center;
+            margin: 20px 70px;
+            
+        }
+        body{
+            background-color: rgb(91, 95, 98);
+            margin: 70px;
+        }
+        
+        .img12{
+            width: 300px;
+            height: 400px;
+            border-radius: 20px;
+        }
+        #container{
+            display: flex;
+            border-radius: 5px;
+        }
+        #group2{
+            display: flex;
+        }
+        
+        .img1{
+            border-radius: 20px;
+        }
+    
+
+        
+        a:hover{
+         background-color:crimson ;
+        }
+        .butt1{
+            padding: 10px 20px;
+            background-color: rgb(44, 40, 39);
+            border-radius: 10px;
+            color: aliceblue;
+        }
+
+
+        .nav{
+        background-color: #141313;
+            font-family:'Times New Roman', Times, serif ;
+            
+        }
+        nav .navdiv{
+            background-color: #141313;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        .navdiv{
+
+           display: flex; 
+           align-items: center;
+           justify-content: space-between;
+        }
+        .logo a{
+            font-size: 40px;
+            font-weight: 400;
+            color: aliceblue;
+        }
+        li a{
+            color: aliceblue;
+            font-size: 18px;
+            font-weight: bold;
+             margin-right: 25px;
+
+        }
+        li{
+            list-style: none;
+            display: inline-block;
+        }
+        button{
+            background-color: rgb(11, 43, 43);
+            margin-left:10px ;
+            border-radius: 10px;
+            padding:10px;
+            width: 90px;
+
+
+        }
+        button a{
+            color: aliceblue;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        a{
+            text-decoration: none;
+            
+        }
+
+
+.slider {
+    position:relative;
+    width:100%;
+    margin: auto;
+    overflow: hidden;
+
+    
+    
+}
+.slider img{
+    width:100% ;
+    display: none;
+    
+}
+img.displaySlide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.slider button{
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.285);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+.prevoius{
+    left:0;
+}
+ .next{
+    right: 0;
+ } 
+ @keyframes fade {
+    from{opacity: .5}
+    to {opacity: 1 }
+    
+ }      
+        
+    
+    
+    
+    
+    
+    
+    
+    
 
     
     
